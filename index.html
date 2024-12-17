@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Poll Panel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Admin Poll Panel</h1>
+        <form id="pollForm">
+            <input type="text" id="pollTitle" placeholder="Poll Title" required>
+            <textarea id="pollOptions" placeholder="Enter options separated by commas" required></textarea>
+            <button type="submit">Create Poll</button>
+        </form>
+        <h2>Active Polls</h2>
+        <ul id="pollList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
